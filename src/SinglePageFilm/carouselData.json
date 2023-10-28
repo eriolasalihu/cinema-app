@@ -1,0 +1,16 @@
+{
+    "slides": [
+        {
+            "src":"https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpg",
+            "alt": "image 1 for carousel"
+        },
+        {
+            "src":"https://images.pexels.com/photos/1496372/pexels-photo-1496372.jpeg?cs=srgb&dl=pexels-artem-saranin-1496372.jpg&fm=jpg",
+            "alt": "image 2 for carousel"
+        },
+        {
+            "src":"https://media.istockphoto.com/id/539215059/photo/morning-country-road-through-the-foggy-landscape-colorful-sunrise.jpg?s=170667a&w=0&k=20&c=NlyZHjuPhqbuLkiQwIuaSSx9Q9tge0Ci17MWiYBnNTI=",
+            "alt": "image 3 for carousel"
+        }
+    ]
+}

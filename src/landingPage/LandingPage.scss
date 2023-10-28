@@ -1,0 +1,70 @@
+body{
+//    
+// background: radial-gradient(circle, rgb(30 7 47) 1%, rgb(230, 236, 242) 164%);
+// color: rgb(88, 87, 87);
+background: linear-gradient(59deg, rgb(157 154 157) 20%, rgb(92 103 127) 58%, rgb(81 57 77) 98%);
+    // background: radial-gradient(circle, rgb(208, 213, 223) 0%, rgba(230,236,242,1) 50%);
+    color: rgb(88, 87, 87);
+    font-family: 'Montserrat', sans-serif;
+}
+.pageLayout{
+    .textMovie{
+        border: none;
+        border-right: 2px solid rgb(163 152 152);
+        display: flex;
+        h1{
+            font-size: 120px;
+            font-weight: 600;
+            // background: -webkit-linear-gradient(#63cf9d, #aa4444);
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
+            background: url("https://t4.ftcdn.net/jpg/01/94/35/19/360_F_194351905_FlzhKrXQkZdLBaq1wZmssTSILprWRghW.jpg");
+            background-clip: text;
+            -webkit-background-clip: text; /* For Safari/WebKit browsers */
+            color: transparent; /* Hide the original text */
+        }
+    }
+    .boxesMovie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        color: #011339;
+        p{
+            color: rgb(180, 169, 169);
+        }
+        h1{
+            font-size: 50px;
+            font-weight: 600;
+          
+        }
+        .movieChoices{
+          p{
+            margin-top: 20px;
+          }
+        }
+    }
+}
+.fa-2xl {
+    margin-top: 31px;
+    margin-right:20px;
+    font-size: 6em;
+   
+}
+
+@media only screen and (max-width: 800px) {
+    .pageLayout{
+        display: flex;
+        flex-direction: column;
+        .textMovie{
+            border: none;
+            border-right: 2px solid rgb(163 152 152);
+            display: flex;
+               h1{
+            font-size: 60px;
+            font-weight: 600;
+        }
+        }
+    }
+
+}

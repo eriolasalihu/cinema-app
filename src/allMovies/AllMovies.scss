@@ -1,0 +1,567 @@
+body{
+    background: linear-gradient(59deg, rgb(157 154 157) 20%, rgb(92 103 127) 58%, rgb(81 57 77) 98%);
+    // background: linear-gradient(59deg, rgb(13 12 13) 20%, rgb(52 64 91) 58%, rgb(58 41 55) 98%);
+    // background: linear-gradient(59deg, rgba(1,15,13,0.8491771708683473) 20%, rgba(30,16,50,1) 58%, rgba(45,13,13,1) 98%);
+    // background: linear-gradient(59deg, rgba(0,22,19,0.8491771708683473) 20%, rgba(37,22,59,1) 58%, rgba(69,24,24,1) 98%);
+// &:hover{
+//     background: linear-gradient(59deg, rgb(58 41 55)20%, rgb(52 64 91) 58%, rgb(13 12 13) 98%);
+
+// }
+}
+.pageLayout{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.olala{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(205 242 44);
+    height: 50px;
+    border-radius: -50px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    p{
+        font-size: larger;
+        color: #f7f1f1;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+   &:hover{
+    p{
+
+        color: #635f5f;
+    }
+    border-right: 5px solid rgb(205 242 44);
+    border-bottom: 5px solid rgb(205 242 44);
+
+
+   }
+}
+
+
+.slider{
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+        img{
+            width: 100%;
+            box-shadow: 0px 0px 10px 2px rgb(15 14 14);
+            border-radius: 20px;
+            filter: grayscale(70%);
+            &:hover{
+                filter: grayscale(0);
+            }
+    }
+    .watch{
+        position: absolute;
+        bottom: 20px;
+        left: 16px;
+        padding: 3px;
+        border: 2px solid #cdf22c;
+        border-radius: 30px;
+        background-color:transparent;
+        font-weight: 700;
+        color: black;
+button{
+    bottom: 20px;
+    left: 16px;
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px 7px;
+    background-color: #cdf22c;
+    font-weight: 700;
+    color: black;
+    &:hover{
+    background-color: #97b514;
+
+    }
+}
+    }
+}
+.allFilms{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 18px;
+   .iconStar{
+    i{
+        margin-right: 5px;
+    }
+   }
+
+    .films{
+        width: 23%;
+        box-shadow: 0px 0px 10px 2px rgb(15, 14, 14);
+        background-color: #000000;
+        border: 5px solid #000000;
+        border-radius: 20px;
+        transition: 0.5s;
+        padding: 3px;
+        // &:hover{
+        //     // transform: matrix(0, 1, 1, 0,0,0);
+        //     // transform: translate(10px, 5px);
+        //     // transform: skew(15deg, 10deg);
+        //     // transform: scale(0.9);
+        //     // transform: rotate(20deg);
+        // }
+        .imageOfFilm{
+            filter: grayscale(70%);
+            &:hover{
+                filter: grayscale(0);
+    }
+    .barbier{
+        border-radius: 15px;
+        width: 100%;
+        height: 190px;
+        margin-bottom: 5px;
+
+    }
+}
+.nameOfFilm{
+    text-align: start;
+    h6{
+
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 1px;
+    }
+}
+.desc{
+    text-align: start;
+    h6{
+        color: gray;
+        font-size: 12px;
+    }
+}
+    }
+}
+
+.popcorn{
+    justify-content: space-around;
+    .popcornBox{
+        justify-content: space-around;
+        width: 48%;
+        border-radius: 20px;
+        background-color:#0d0c0c ;
+        padding: 10px;
+        border-bottom: 1px solid #cdf22c;
+        .popCornImg{
+            .popcornImg{
+                width: 100px;
+                height: 130px;
+                // &:hover{
+                //     transform: scale(0.8);
+                // }
+             
+
+            }
+        }
+        .OrderPopcorn{
+display: flex;
+flex-direction: column;
+            .textPopcorn{
+                color: rgb(200, 198, 198);
+                p{
+                    font-size: 10px;
+                    color: gray;
+                    margin: 0;
+                }
+                .emojiCode{
+                    font-size: 30px;
+                    cursor: pointer;
+                    &:hover{
+                    margin-left: 30px;
+                    transition: 0.3s;
+                    }
+                    .emojiCode::after {
+                        margin-left: 30px;
+                        transition: 0.13s;
+                        }
+                }
+            }
+            .order{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                .money{
+                    color: rgb(208, 206, 206);
+                }
+                .orderIt{
+                    button{
+                        border: none;
+                        background-color: #cdf22c;
+                        border-radius: 15px;
+                        padding: 2px 15px;
+                        color: #000000;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.layoutTicket{
+    width: 100%;
+    height: 620px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px rgb(15 14 14);
+    padding: 30px;
+    .ticketsLayout{
+        justify-content: space-between;
+        display: flex;
+    .headingTitle{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        p{
+            font-size: 12px;
+            color: gray;
+        }
+    }
+    .calendar{
+        display: flex;
+        color: white;
+        gap: 10px;
+        p{
+            font-size: 10px;
+            color: gray;
+        }
+        .iconDate{
+            background-color: #cdf22c;
+            height: fit-content;
+            padding: 4px 7px ;
+            border-radius: 5px;
+            .styleIcon{
+                color: black;
+                font-size: 18px;
+            }
+        }
+    }
+}
+.borderLine{
+    border: none;
+    border-top: 5px solid #cdf22c ;
+    border-radius: 100%;
+}
+.places{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .couches{
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        .couchStyle{
+            cursor: pointer;
+            font-size: 25px;
+            color: #cdf22c;
+            box-shadow: 7px 3px 10px -5px #caf44587;
+        }
+    }
+}
+}
+
+    .ticketBought{
+        display: flex;
+        border-radius: 20px;
+        background-color: #0d0c0c;
+        padding: 15px;
+        width: 100%;
+        color: white;
+        margin: 0;
+        border-bottom: 1px solid #cdf22c;
+&:hover{
+    border-bottom: 3px solid #cdf22c;
+    border-top: 1px solid #cdf22c;
+    // transition: 0.10s;
+    // transform: translate(10px, 5px);
+
+
+}
+        .titleee{
+            h5{
+                font-size:x-large;
+            }
+        h6{
+            font-size: 12px;
+            font-weight: 400;
+            color: rgb(149, 145, 145);
+        }
+    }
+    .hallSeats{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        color: rgb(212, 201, 201);
+        
+        .hallLux{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        //     .hall{
+                
+        //     }
+        //     .lux{
+        // }
+    }
+    .seatsNumber{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        // .seats{
+            
+        // }
+        // .B7B8{
+            
+        // }
+    }
+}
+.barbiera{
+        width: 100%;
+        height: 170px;
+        border-radius: 20px;
+    }
+    
+    
+    .buyTickets{
+        display: flex;
+        justify-content: space-between;
+        // .moneyy{
+            
+        // }
+        .buttonBuy{
+            button{
+                border: none;
+                padding: 6px 12px;
+                border-radius: 25px;
+                background-color: #cdf22c;
+                font-weight: 700;
+                font-size: 18px;
+                &:hover{
+                    color: #c4b2b2;
+                }
+            }
+            
+        }
+    }
+    
+    
+}
+
+
+
+.companies{
+    background-color: rgb(89 89 89 / 21%);
+    .someFeatures{
+display: flex;
+justify-content: space-evenly;
+.boxesArt{
+    width: 33%;
+display: flex;
+flex-direction: column;
+align-items: center;
+    .circleArt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #97b514;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 5px solid #202533;
+    }
+    .title{
+        font-weight: 600;
+    }
+    .text{
+        background-color: #a1b2d908;
+        border-radius: 5%;
+        padding: 5px 10px;
+        color: #b1afaf;
+    }
+}
+}
+}
+.circleArt:hover{
+    transform: scale(0.8);
+}
+.backgroundImage{
+    background-image: url('../img/cinemaPic.avif');
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+&::after
+{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 2;
+}
+.loadMore{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid;
+    border-radius:10px ;
+    padding: 5px;
+    width:20%;
+   button{
+       cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 38px;
+    color: whitesmoke;
+    background-color: #7774744f;
+   }
+//    .one{
+//     // background-color: rgba(119, 116, 116, 0.24);
+//     // padding: 5px;
+//     // // gap: 10px;
+//     // // width: 20%;
+//     // border-radius: 10px;
+//     // min-height: 275px;
+//     // display: flex;
+//     // align-items: center;
+//     // justify-content: center;
+//     // font-size: 100px;
+//     // color: #f7f1f1;
+
+//    }
+}
+}
+
+@media only screen and (max-width: 800px) {
+    .backgroundImage .loadMore {
+        width: 70%;
+    }
+    .slider .watch {
+        width: 37%;
+        font-size: 12px;
+    }
+.allFilms{
+    justify-content: space-around;
+    width: 100%;
+    .films{
+        padding: 10px;
+        width: 100%;
+        .imageOfFilm .barbier {
+            height: 320px;
+        }
+        .iconStar{
+            font-size: 16px;
+        }
+    }
+    
+}
+
+.slider
+ img {
+    width: 100%;
+    height: 208px;
+}
+
+
+.ticketBought{
+    .titleee{
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 10px;
+}
+    }
+    .hallSeats{
+.hallLux{
+.hall{
+font-size: 16px;
+}
+.lux{
+    font-size: 16px;
+}
+}
+.seatsNumber{
+.seats{
+    font-size: 16px;
+}
+.B7B8{
+    font-size: 16px;
+}
+}
+    }
+    .buyTickets{
+        .buttonBuy{
+            button {
+                font-size: 14px;
+            }
+    } 
+} 
+.photoImg{
+    display: none;
+}
+}
+
+.popcorn{
+    .popcornBox{
+        width: 88%;
+        margin-bottom: 10px;
+    }
+}
+.companies{
+    .someFeatures{
+.boxesArt{
+    width: 83%;
+}
+    }
+}
+
+
+
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip-text {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+    width: 100%;
+    // bottom: 125%; /* Position the tooltip above the element */
+    left: 50%;
+    // transform: translateX(-50%); /* Center the tooltip horizontally */
+  }
+  
+  .tooltip-container:hover .tooltip-text {
+    display: block;
+  }

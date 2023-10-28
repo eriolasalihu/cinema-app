@@ -1,0 +1,41 @@
+
+    li{
+        position: relative;
+        display: block;
+        transition: 0.5;
+        cursor: pointer;
+        color: white;
+
+        &::after{
+            position: absolute;
+            content: '';
+            width: 90%;
+            height: 3px;
+            top: 100%;
+            color: white;
+            left: 0;
+            transition: transform 0.5s;
+            transform: scale(0);
+            transform-origin: right;
+            background-color: white;
+
+        }
+        &:hover{
+            color: white;
+        }
+        
+        &:hover::after{
+            color: white;
+            transform: scale(1);
+            transform-origin: left;
+        }
+    }
+
+    .navName{
+        color: #cbc2c2
+    }
+    @media only screen and (max-width: 800px) {
+        .navbarStyle{
+        }
+
+    }

@@ -1,0 +1,50 @@
+.imgBorder{
+    padding: 10px;
+    border: 1px solid #2e253136;
+    border-radius: 30px;
+    img{
+    border-radius: 20px;
+
+    }
+}
+.title{
+    h3{
+        color: white;
+        font-size: 40px;
+        margin: 0;
+        font-weight: 600;
+    }
+    
+}
+.dateAndHour{
+    p{
+        color: rgb(175, 172, 172);
+        font-size: 12px;
+        margin: 0;
+    }
+}
+.description{
+    color: whitesmoke;
+}
+.descrow{
+    color: rgb(169, 164, 164);
+}
+
+.boxesFilms{
+   flex-direction: column;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    border-radius: 15px;
+    height: 70px;
+    max-height: 70px;
+    box-shadow: 0px 0px 8px 1px #3b273d;
+    align-items: center;
+    h6{
+        color: rgb(210, 206, 206);
+    }
+    &:hover{
+        box-shadow: 0px 0px 4px 2px #513b4f66;
+
+    }
+}

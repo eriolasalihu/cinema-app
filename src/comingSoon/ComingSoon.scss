@@ -1,0 +1,194 @@
+body{
+    // background-color:rgb(114, 128, 118);
+    // background-image: url("../../src/img/spiderMan.jpg");
+    // z-index: -9999;
+}
+.layoutCommingSoon{
+margin-top: 6%;
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // margin-top: 10%;
+    h1{
+        font-size: 100px;
+        text-align: start;
+        color: white;
+    }
+    h6{
+        color: white;
+
+    }
+    .butonatComingSoon{
+        display: flex;
+        gap: 20px;
+        .watchTrailer{
+            border-radius: 31px;
+            padding: 18px 37px;
+            color: white;
+            background-color: #ff164f;
+            border: none;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .wishList{
+            border-radius: 29px;
+            padding: 10px 38px;
+            border: none;
+            font-size: 13px;
+            font-weight: 600;
+        }
+    }
+}
+.filmsComingSoon{
+display: flex;
+// align-items: end;
+gap: 20px;
+flex-direction: column;
+// justify-content: end;
+    .comingSoon{
+        .title{
+            display: flex;
+            gap: 5px;
+            h3{
+                font-size: 20px;
+                color: white;
+                font-weight: 600;
+            }
+        }
+        .textComingSoon{
+            
+            h6{
+                font-weight: 500;
+                color: rgb(200, 195, 195);
+                
+            }
+        }
+    }
+    .trailerMovies{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .borderImg{
+            border: 1px solid rgb(82 57 77 / 82%);
+            border-radius: 20px;
+            position: relative;
+            padding:10px;
+            transition: 0.5;
+
+            &:hover{
+                transition: 0.5;
+                transform: scale(0.9);
+                opacity: 0.7;
+
+            }
+            
+            .trailerImgMovies{
+                width: 100%;
+                height: 250px;
+                border-radius: 20px;
+                opacity: 0.8;
+
+
+           
+            }
+            .titleMovie{
+                position: absolute;
+                top: 35px;
+                left: 40px;
+                color: whitesmoke;
+            }
+            .dateMovie{
+                position: absolute;
+                bottom: 35px;
+                left: 40px;
+                color: whitesmoke;
+                font-size: 12px;
+            }
+            .playButton{
+                position: absolute;
+                bottom: 20px;
+                right: 35px;
+                color: whitesmoke;
+                font-size: 50px;
+            }
+        }
+    }
+}
+.olalaaaaaaaaaaaaaaaaa{
+    margin-top: 11.5%;
+    padding: 55px;
+    background-color: rgb(61 65 84 / 24%);
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    .category{
+        h5{
+            color: white;
+            font-weight: 600;
+        }
+p{
+    font-size: 13px;
+    color: rgb(82 57 77);
+    font-weight: bold;
+}
+}
+.writer{
+ h5{
+     color: white;
+     font-weight: 600;
+ }
+ p{
+    font-size: 13px;
+    color: rgb(82 57 77);
+    font-weight: bold;
+    margin: 0;
+ }
+}    
+.storyLine{
+    h5{
+        color: white;
+        font-weight: 600;
+    }
+p{
+    font-size: 13px;
+    color: rgb(82 57 77);
+    font-weight: bold;
+}
+}
+.stars{
+    h5{
+        color: white;
+        font-weight: 600;
+    }
+p{
+    font-size: 13px;
+    color: rgb(82 57 77);
+    font-weight: bold;
+}
+}
+}
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .layoutCommingSoon .textContainer h1 {
+        font-size: 42px;
+        text-align: start;
+        color: white;
+    }
+    .layoutCommingSoon .textContainer .butonatComingSoon .watchTrailer {
+        border-radius: 31px;
+        padding: 13px 27px;
+        color: white;
+        background-color: #ff164f;
+        border: none;
+        font-weight: 600;
+        font-size: 12px;
+    }
+}

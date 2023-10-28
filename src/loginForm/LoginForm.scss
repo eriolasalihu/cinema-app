@@ -1,0 +1,141 @@
+.containerBorder{
+padding: 20px;
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    padding: 20px;
+    .textForLogin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            font-size: 13px;
+            color: green;
+        }
+    }
+    .LoginSignUp{
+        display: flex;
+        flex-direction: row;
+        background-color: #f0f0f0;
+        // justify-content: space-between;
+        padding: 3px 3px;
+        border-radius: 20px;
+        font-size: 14px;
+        width: 45%;
+        .signUpLayout{
+            text-align: center;
+        background-color: white;
+        font-weight: 500;
+        border-radius: 20px;
+        padding: 3px 10px;
+        width: 50%;
+        }
+        .loginLayout{
+            text-align: center;
+
+        border-radius: 20px;
+        padding: 3px 20px;
+        width: 50%;
+        color: #d4c9c9
+
+        }
+    }
+    .formInput{
+        display: flex;
+        flex-direction: column;
+        .emailLabelInput{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            label{
+                font-weight: 500;
+                color: white;
+            }
+            input{
+        background: #8b8c9500;
+                border: none;
+                padding: 4px;
+                border-radius: 6px;
+                border-bottom: 1px solid rgb(201, 192, 192);
+            }
+        }
+        .passwordLabelInput{
+               display: flex;
+            flex-direction: column;
+            width: 100%;
+                 input{
+        background: #8b8c9500;
+                border: none;
+                padding: 4px;
+                border-radius: 6px;
+                border-bottom: 1px solid rgb(201, 192, 192);
+            }
+             label{
+                font-weight: 500;
+                color: white;
+            }
+        }
+        .textttttt{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            p{
+                font-size: 10px;
+                color: white;
+            }
+            hr{
+                border: 2px solid;
+                color: white;
+            }
+        }
+        .loginButton{
+            display: flex;
+            justify-content: end;
+            button{
+                width: 30%;
+                border: none;
+                border-bottom: 1px solid grey;
+                border-radius: 20px;
+                padding: 8px 10px;
+                color: #5e5858;
+                font-weight: 500;
+            }
+        }
+    }
+}
+    .imageCinema{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img{
+            border-radius: 20px;
+            width: 100%;
+            height: auto;
+            box-shadow: 0px 0px 19px 2px #b3a6a6;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .containerBorder{
+        
+        .formContainer{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            .LoginSignUp{
+                width: 53%;
+            }
+         
+        }
+        .imageCinema{
+            display: none;
+        }
+    }
+    .containerBorder .formContainer .formInput .loginButton button {
+        width: 100%;
+    
+    }
+}

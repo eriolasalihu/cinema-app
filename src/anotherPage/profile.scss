@@ -1,0 +1,84 @@
+body{
+    background-color:white;
+}
+
+.container_body{
+    .photos{
+        margin-top: 10%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .fistPhoto{
+            z-index: 999;
+            margin-left: 20%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .secondPhoto{
+            z-index: 1003;
+            margin-top: -10%; 
+            margin-left: 35%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .thirdPhoto{
+            z-index: 999;
+            margin-top: -20%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .colorContainer{
+        background-color: #fff0e9;
+        height: 645px;
+        max-height: 646px;
+    }
+ 
+}
+
+@media only screen and (max-width: 800px) {
+    .container_body{
+        .photos{
+            margin-top: 10%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .fistPhoto{
+                z-index: 999;
+                margin-left: 10%;
+                img{
+                    width: 329px;
+                    height: 181px;
+                }
+            }
+            .secondPhoto{
+                z-index: 999;
+                margin-top: -10%;
+                margin-left: 35%;
+                img{
+                    width: 238px;
+                    height: 175px;
+                }
+            }
+            .thirdPhoto{
+                z-index: 999;
+                margin-top: -20%;
+                img{
+                    width: 380px;
+                    height: 200px;
+                }
+            }
+        }
+        .colorContainer{
+            background-color: #fff0e9;
+            height: 500px;
+        }
+     
+    }
+}

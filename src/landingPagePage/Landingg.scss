@@ -1,0 +1,82 @@
+.colorOfThem{
+    color: #d7d6d7;
+}
+.typesOfCategories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 61px;
+    .categories{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 18%;
+        border-radius: 20px;
+        padding: 6px 6px 0px 6px;
+        color: black;
+        border: 2px solid #585757;
+    }
+    .imageCategories{
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        width: 60px;
+        height: 60px;
+    }
+    .textCategories{
+        .name{
+            h6{
+
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+        .numberMovies{
+            h6{
+
+                font-size: 12px;
+                color: rgb(0, 0, 0);
+            }
+        }
+        .viewMore{
+            p{
+                font-size: 15px;
+                color: #312b2b;
+                font-weight: 600;
+                margin-bottom: 7px
+                // text-decoration: dashed;
+                // text-underline-offset: black;
+            }
+            p:hover{
+                color: #000000;
+                font-weight: 500;
+
+            }
+            hr {
+              
+            }
+        }
+    }
+}
+.categories:hover{
+    border-top: 1px solid #585757;
+    border-bottom: 1px solid #585757;
+
+    border-left: 3px solid #585757;
+    border-right: 3px solid #585757;
+
+    // background: linear-gradient(59deg, rgb(0 0 0) 0%, rgb(4 15 20) 62%, #3b0000e0 100%);
+        // background: linear-gradient(59deg, rgb(217, 217, 219) 0%, rgb(255 255 255) 62%, #fff 100%);
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .typesOfCategories{
+        .categories{
+            margin-left: 12%;
+            width: 75%;
+        }
+    }
+
+}
